@@ -1,0 +1,171 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.sub-section{
+    width: 40%;
+}
+
+.dream-section{
+    width: 40%;
+}
+
+.header-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(image/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10px;
+    padding-bottom: 150px;
+}
+
+.sub-section img{
+    width: 100%;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: fuchsia;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+
+h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+
+h4{
+
+}
+
+.description{
+    color: grey;
+    margin-top:40px ;
+    margin-bottom: 40px;
+    font-size: 20px;
+    width: 600px;
+}
+
+.sub-section a{
+    text-decoration:none ;
+    color: white;
+    font-weight: 500;
+    background-color:fuchsia ;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    padding-right: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.mid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(image/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 50px;
+}
+
+.dream-section img{
+    width: 80%;
+}
+
+.work-intro{
+    
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    
+}
+
+
+
+
+.work{
+    float: left;
+    width: 20%;
+    margin-left:5% ;
+    margin-right: 5%;
+}
+
+   
+
+
+
+.work img{
+    width: 100%;
+}
+
+.work-portfolio{
+    height: 75vh;
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+.footer-section{
+    height: 100vh;
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer {
+    text-align: center;
+
+}
+
+
+.pink-message{
+  border: 1px solid;
+  text-align: center;
+  padding:20px 100px 20px 100px;
+  border-radius: 10px;
+  color: white;
+  background-color: fuchsia;
+}
+
+
+.description-footer{
+    
+    color: grey;
+}
+
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.copyright{
+    text-align: center;
+    color: gray;
+}
